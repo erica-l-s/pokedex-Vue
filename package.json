@@ -3,22 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "vue"
-    ],
-    "transform": {
-      "^.+\\.js$": "babel-jest",
-      "^.+\\.vue$": [
-        "vue-jest",
-        {
-          "babelConfig": true
-        }
-      ]
-    }
-  },
+ 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
