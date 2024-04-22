@@ -1,29 +1,60 @@
-# pokedex
+# Pokédex Vue App
 
-This template should help get you started developing with Vue 3 in Vite.
+Este é um aplicativo de Pokédex desenvolvido em Vue.js, utilizando a API PokeAPI para obter informações sobre os Pokémon.
 
-## Recommended IDE Setup
+Deploy Vercel: https://pokemon-vue-steel.vercel.app/
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Funcionalidades
 
-## Customize configuration
+:heavy_check_mark: Listagem dos Pokémon com scroll infinito
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+:heavy_check_mark: Filtros para nome, ID, tipo e espécie dos Pokémon
 
-## Project Setup
+:construction: Suporte aos idiomas Português, Inglês e Espanhol
 
-```sh
+:heavy_check_mark: Detalhes do Pokémon ao abrir seu card na listagem, incluindo:
+
+:heavy_check_mark: Sprites do Pokémon
+
+:heavy_check_mark: Movimentos de ataque
+
+:heavy_check_mark: Evoluções, quando disponíveis
+
+:heavy_check_mark: Games em que o Pokémon está presente
+
+:heavy_check_mark: Aplicação responsiva
+
+## Tecnologias Utilizadas
+
+- Vue.js
+- HTML
+- CSS
+- Bootstrap 
+- JavaScript
+
+## Instalação e Uso
+1.Clone este repositório:
+```
+sh
+git clone https://github.com/seu-usuario/pokedex-vue.git
+```
+2.Instale as dependências:
+```
+sh
+cd pokedex-vue
 npm install
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
+3.Inicie o servidor de desenvolvimento:
+```
+sh
 npm run dev
 ```
 
-### Compile and Minify for Production
 
-```sh
-npm run build
-```
+## Estrutura do Projeto
+
+- src/components/CardPokemon.vue: Componente para exibir os detalhes do Pokémon.
+- src/components/PokemonList.vue: Componente para listar os Pokémon com filtros.
+- src/views/Home.vue: Página inicial que contém a listagem de Pokémon.
+- src/App.vue: Componente raiz do aplicativo.
+- src/main.js: Arquivo principal do Vue.js.
