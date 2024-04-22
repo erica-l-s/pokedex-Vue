@@ -1,0 +1,10 @@
+{
+    "pokemon": {
+    "selectLanguage": "Select Language:",
+    "searchSpecies": "Filter by species",
+    "searchType": "Filter by type",
+    "searchPlaceholder": "Search name, ID",
+    "allTypes": "All types",
+    "evolutionChain": "Evolution Chain:"
+  }
+}
